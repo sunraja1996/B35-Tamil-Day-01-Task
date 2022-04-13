@@ -1,0 +1,12 @@
+Difference Between HTTP1.1 & HTTP 2
+
+       HTTP 1.1	                                                HTTP 2
+HTTP 1.1 is released in 1997                       	HTTP 2 is released in 2015
+HTTP 1.1 works on textual format                	HTTP 2 works on Binary format
+Single requests per connection	                  Multiple requests per connection
+Performance is SLOW	                              Good in Performance
+It compresses data by itself	                        It needs header compression Algorithm for data compression
+Loading time is slow	                              Loading time is fast as HTTP 1.1
+Head of line blocks all requests,      
+until it doesn’t get all resources	                  It allows multiplexing in one TCP connection is required for Multiple requests
+
